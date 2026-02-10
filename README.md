@@ -19,32 +19,32 @@ Include the neural network model diagram.
 Write your own steps
 
 ### STEP 2: 
-
+Import the necessary Python libraries and load the dataset into the workspace and Perform data preprocessing by handling missing values, encoding categorical variables, and scaling the features.
 
 
 ### STEP 3: 
-
+Split the dataset into training and testing datasets for model evaluation.
 
 
 ### STEP 4: 
-
+Define the neural network architecture with input, hidden, and output layers using PyTorch.
 
 
 ### STEP 5: 
-
+Initialize the loss function and optimizer, then train the neural network using the training dataset.
 
 
 ### STEP 6: 
-
+Evaluate the trained model using test data and compute performance metrics such as accuracy, confusion matrix, and classification report.
 
 
 
 
 ## PROGRAM
 
-### Name:
+### Name:Thaanesh V
 
-### Register Number:
+### Register Number:212223230228
 
 ```python
 class PeopleClassifier(nn.Module):
@@ -65,19 +65,23 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
 ```
 
 ### Dataset Information
-Include screenshot of the dataset.
+<img width="1254" height="241" alt="image" src="https://github.com/user-attachments/assets/9faac321-73c5-4acd-8668-75492cd545ca" />
+
 
 ### OUTPUT
+<img width="902" height="345" alt="image" src="https://github.com/user-attachments/assets/5930da1b-808b-41bf-9f0a-e21d5e1e76c6" />
+
 
 ## Confusion Matrix
+<img width="772" height="539" alt="image" src="https://github.com/user-attachments/assets/da2324c6-4329-47d8-9869-e0e47aa744a7" />
 
-Include confusion matrix here
 
 ## Classification Report
-Include classification report here
+<img width="578" height="411" alt="image" src="https://github.com/user-attachments/assets/5cf5c998-6c7c-4df6-948d-6fded16301ec" />
+
 
 ### New Sample Data Prediction
-Include your sample input and output here
+<img width="902" height="345" alt="image" src="https://github.com/user-attachments/assets/5930da1b-808b-41bf-9f0a-e21d5e1e76c6" />
 
 ## RESULT
-Include your result here
+Thus, a neural network Classification model was successfully developed and trained using PyTorch.
